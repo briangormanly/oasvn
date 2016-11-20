@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<string name="db_create">"
+	    CREATE TABLE setting (id integer primary key not null DEFAULT '1', root_folder VARCHAR(120) DEFAULT 'oasvnlite/', active tinyint(1) NOT NULL DEFAULT '1', date_modified TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP, date_created DATETIME NULL DEFAULT NULL);
+	    CREATE TABLE connection (id integer primary key not null, name VARCHAR(200), url VARCHAR(260), protocol VARCHAR(100), username VARCHAR(100), password VARCHAR(100), folder VARCHAR(100), head integer default 0, active tinyint(1) NOT NULL DEFAULT '1', date_modified TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP, date_created DATETIME NULL DEFAULT NULL);
+	    "</string>
+	<string name="db_insert">""</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	    <TableLayout android:layout_width="fill_parent"
+	        	android:id="@+id/ticketstatus_scroll"
+	        	android:stretchColumns="*"
+                android:layout_height="wrap_content">
+            <TableRow>
+		    <TextView
+		        android:id="@+id/add_name_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/name"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    </TableRow>
+		    <TableRow>
+		    <EditText
+		        android:id="@+id/add_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		    </EditText>
+		    </TableRow>
+		    <TableRow>
+		    <TextView
+		        android:id="@+id/add_url_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/url"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		</TableRow>
+		<TableRow>
+		    <EditText
+		        android:id="@+id/add_url"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textUri" />
+		</TableRow>
+		<TableRow>
+		    <TextView
+		        android:id="@+id/add_username_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/username"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		</TableRow>
+		<TableRow>
+		    <EditText
+		        android:id="@+id/add_username"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow>
+		    <TextView
+		        android:id="@+id/add_password_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/password"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		</TableRow>
+		<TableRow>
+		    <EditText
+		        android:id="@+id/add_password"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPassword" />
+		</TableRow>
+		<TableRow>
+		    <TextView
+		        android:id="@+id/add_folder_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/folder"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		</TableRow>
+		<TableRow>
+		    <EditText
+		        android:id="@+id/add_folder"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow>
+		    <Button
+		        android:id="@+id/add_save"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/save" />
+		</TableRow>
+		<TableRow>
+		    <Button
+		        android:id="@+id/add_cancel"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/cancel" />
+	    </TableRow>
+    	</TableLayout>
+	</ScrollView>
+</RelativeLayout>

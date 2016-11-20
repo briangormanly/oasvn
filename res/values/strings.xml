@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OASVN</string>
+    <string name="loading">Loading...</string>
+    <string name="colon">:</string>
+    
+    <!-- Main Menu -->
+    <string name="new_connection">Add Repository</string>
+    <string name="exit">Exit</string>
+    <string name="no_connections">There are currently no connections saved.</string>
+    <string name="create_connection">Please use the Add Repository button below to create a repository</string>
+    
+    <!-- Add Repository -->
+    <string name="name">Name</string>
+    <string name="url">Repository URL</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="protocol">Protocol</string>
+    <string name="folder">Local Folder</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Connection Details -->
+    <string name="connection">Connection</string>
+    <string name="no_connection_selected">No connection selected...</string>
+    <string name="head">Revision</string>
+    <string name="checkout">Checkout</string>
+    <string name="commit">Commit</string>
+    <string name="delete">Delete Local Folder</string>
+    <string name="performing_checkout">Performing Checkout!!!</string>
+    <string name="performing_commit">Performing Commit!!!</string>
+    <string name="idle">Idle...</string>
+    <string name="complete">Action Completed!!!!</string>
+    <string name="in_progress">Operation in progress, please wait...</string>
+    <string name="confirm">Are you sure?</string>
+    <string name="delete_message">You will delete the entire local folder!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit">Edit Connection</string>
+    
+    <!-- Commit -->
+    <string name="comments">Comments</string>
+
+</resources>

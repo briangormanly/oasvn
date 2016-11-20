@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+author: Brian Gormanly
+ -->
+ 
+<resources>
+    <color name="actionbar_background_light">#ccffffff</color>
+    <color name="actionbar_background_dark">#cc000000</color>
+    <color name="drag_active_color">#80cccccc</color>
+    <color name="drk_blue">#191970</color>
+    <color name="lt_blue">#4682B4</color>
+    <color name="alice_blue">#F0F8FF</color>
+    <color name="orange">#FF9966</color>
+    <color name="purple">#E285FF</color>
+    <color name="green">#00FF7F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="ice">#D6D6FF</color>
+</resources>
